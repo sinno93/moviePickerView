@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B9D5FD1EC86C6300091E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D5FC1EC86C6300091E14 /* main.m */; };
+		41B9D6001EC86C6300091E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D5FF1EC86C6300091E14 /* AppDelegate.m */; };
+		41B9D6031EC86C6300091E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D6021EC86C6300091E14 /* ViewController.m */; };
+		41B9D6061EC86C6300091E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D6041EC86C6300091E14 /* Main.storyboard */; };
+		41B9D6081EC86C6300091E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D6071EC86C6300091E14 /* Assets.xcassets */; };
+		41B9D60B1EC86C6300091E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D6091EC86C6300091E14 /* LaunchScreen.storyboard */; };
+		41B9D6161EC86C6300091E14 /* CatEyeMovieScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D6151EC86C6300091E14 /* CatEyeMovieScrollTests.m */; };
+		41B9D6211EC86C6300091E14 /* CatEyeMovieScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D6201EC86C6300091E14 /* CatEyeMovieScrollUITests.m */; };
+		41B9D6351EC86DCD00091E14 /* MoviePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D6341EC86DCD00091E14 /* MoviePickerView.m */; };
+		41B9D6381EC8729700091E14 /* UIView+NIMDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D6371EC8729700091E14 /* UIView+NIMDemo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41B9D6121EC86C6300091E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41B9D5F01EC86C6300091E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41B9D5F71EC86C6300091E14;
+			remoteInfo = CatEyeMovieScroll;
+		};
+		41B9D61D1EC86C6300091E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41B9D5F01EC86C6300091E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41B9D5F71EC86C6300091E14;
+			remoteInfo = CatEyeMovieScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41B9D5F81EC86C6300091E14 /* CatEyeMovieScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatEyeMovieScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B9D5FC1EC86C6300091E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41B9D5FE1EC86C6300091E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41B9D5FF1EC86C6300091E14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41B9D6011EC86C6300091E14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41B9D6021EC86C6300091E14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41B9D6051EC86C6300091E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41B9D6071EC86C6300091E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41B9D60A1EC86C6300091E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41B9D60C1EC86C6300091E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B9D6111EC86C6300091E14 /* CatEyeMovieScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatEyeMovieScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B9D6151EC86C6300091E14 /* CatEyeMovieScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatEyeMovieScrollTests.m; sourceTree = "<group>"; };
+		41B9D6171EC86C6300091E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B9D61C1EC86C6300091E14 /* CatEyeMovieScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatEyeMovieScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B9D6201EC86C6300091E14 /* CatEyeMovieScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatEyeMovieScrollUITests.m; sourceTree = "<group>"; };
+		41B9D6221EC86C6300091E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B9D6331EC86DCD00091E14 /* MoviePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePickerView.h; sourceTree = "<group>"; };
+		41B9D6341EC86DCD00091E14 /* MoviePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePickerView.m; sourceTree = "<group>"; };
+		41B9D6361EC8729700091E14 /* UIView+NIMDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NIMDemo.h"; sourceTree = "<group>"; };
+		41B9D6371EC8729700091E14 /* UIView+NIMDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NIMDemo.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B9D5F51EC86C6300091E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9D60E1EC86C6300091E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9D6191EC86C6300091E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B9D5EF1EC86C6300091E14 = {
+			isa = PBXGroup;
+			children = (
+				41B9D5FA1EC86C6300091E14 /* CatEyeMovieScroll */,
+				41B9D6141EC86C6300091E14 /* CatEyeMovieScrollTests */,
+				41B9D61F1EC86C6300091E14 /* CatEyeMovieScrollUITests */,
+				41B9D5F91EC86C6300091E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B9D5F91EC86C6300091E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B9D5F81EC86C6300091E14 /* CatEyeMovieScroll.app */,
+				41B9D6111EC86C6300091E14 /* CatEyeMovieScrollTests.xctest */,
+				41B9D61C1EC86C6300091E14 /* CatEyeMovieScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B9D5FA1EC86C6300091E14 /* CatEyeMovieScroll */ = {
+			isa = PBXGroup;
+			children = (
+				41B9D6321EC86DB300091E14 /* MoviePickerView */,
+				41B9D5FE1EC86C6300091E14 /* AppDelegate.h */,
+				41B9D5FF1EC86C6300091E14 /* AppDelegate.m */,
+				41B9D6011EC86C6300091E14 /* ViewController.h */,
+				41B9D6021EC86C6300091E14 /* ViewController.m */,
+				41B9D6041EC86C6300091E14 /* Main.storyboard */,
+				41B9D6071EC86C6300091E14 /* Assets.xcassets */,
+				41B9D6091EC86C6300091E14 /* LaunchScreen.storyboard */,
+				41B9D60C1EC86C6300091E14 /* Info.plist */,
+				41B9D5FB1EC86C6300091E14 /* Supporting Files */,
+			);
+			path = CatEyeMovieScroll;
+			sourceTree = "<group>";
+		};
+		41B9D5FB1EC86C6300091E14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B9D5FC1EC86C6300091E14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41B9D6141EC86C6300091E14 /* CatEyeMovieScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				41B9D6151EC86C6300091E14 /* CatEyeMovieScrollTests.m */,
+				41B9D6171EC86C6300091E14 /* Info.plist */,
+			);
+			path = CatEyeMovieScrollTests;
+			sourceTree = "<group>";
+		};
+		41B9D61F1EC86C6300091E14 /* CatEyeMovieScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41B9D6201EC86C6300091E14 /* CatEyeMovieScrollUITests.m */,
+				41B9D6221EC86C6300091E14 /* Info.plist */,
+			);
+			path = CatEyeMovieScrollUITests;
+			sourceTree = "<group>";
+		};
+		41B9D6321EC86DB300091E14 /* MoviePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				41B9D6361EC8729700091E14 /* UIView+NIMDemo.h */,
+				41B9D6371EC8729700091E14 /* UIView+NIMDemo.m */,
+				41B9D6331EC86DCD00091E14 /* MoviePickerView.h */,
+				41B9D6341EC86DCD00091E14 /* MoviePickerView.m */,
+			);
+			name = MoviePickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B9D5F71EC86C6300091E14 /* CatEyeMovieScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B9D6251EC86C6300091E14 /* Build configuration list for PBXNativeTarget "CatEyeMovieScroll" */;
+			buildPhases = (
+				41B9D5F41EC86C6300091E14 /* Sources */,
+				41B9D5F51EC86C6300091E14 /* Frameworks */,
+				41B9D5F61EC86C6300091E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatEyeMovieScroll;
+			productName = CatEyeMovieScroll;
+			productReference = 41B9D5F81EC86C6300091E14 /* CatEyeMovieScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41B9D6101EC86C6300091E14 /* CatEyeMovieScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B9D6281EC86C6300091E14 /* Build configuration list for PBXNativeTarget "CatEyeMovieScrollTests" */;
+			buildPhases = (
+				41B9D60D1EC86C6300091E14 /* Sources */,
+				41B9D60E1EC86C6300091E14 /* Frameworks */,
+				41B9D60F1EC86C6300091E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41B9D6131EC86C6300091E14 /* PBXTargetDependency */,
+			);
+			name = CatEyeMovieScrollTests;
+			productName = CatEyeMovieScrollTests;
+			productReference = 41B9D6111EC86C6300091E14 /* CatEyeMovieScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41B9D61B1EC86C6300091E14 /* CatEyeMovieScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B9D62B1EC86C6300091E14 /* Build configuration list for PBXNativeTarget "CatEyeMovieScrollUITests" */;
+			buildPhases = (
+				41B9D6181EC86C6300091E14 /* Sources */,
+				41B9D6191EC86C6300091E14 /* Frameworks */,
+				41B9D61A1EC86C6300091E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41B9D61E1EC86C6300091E14 /* PBXTargetDependency */,
+			);
+			name = CatEyeMovieScrollUITests;
+			productName = CatEyeMovieScrollUITests;
+			productReference = 41B9D61C1EC86C6300091E14 /* CatEyeMovieScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B9D5F01EC86C6300091E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sinno;
+				TargetAttributes = {
+					41B9D5F71EC86C6300091E14 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SF92GY4C42;
+						ProvisioningStyle = Automatic;
+					};
+					41B9D6101EC86C6300091E14 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SF92GY4C42;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41B9D5F71EC86C6300091E14;
+					};
+					41B9D61B1EC86C6300091E14 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SF92GY4C42;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41B9D5F71EC86C6300091E14;
+					};
+				};
+			};
+			buildConfigurationList = 41B9D5F31EC86C6300091E14 /* Build configuration list for PBXProject "CatEyeMovieScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B9D5EF1EC86C6300091E14;
+			productRefGroup = 41B9D5F91EC86C6300091E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B9D5F71EC86C6300091E14 /* CatEyeMovieScroll */,
+				41B9D6101EC86C6300091E14 /* CatEyeMovieScrollTests */,
+				41B9D61B1EC86C6300091E14 /* CatEyeMovieScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B9D5F61EC86C6300091E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9D60B1EC86C6300091E14 /* LaunchScreen.storyboard in Resources */,
+				41B9D6081EC86C6300091E14 /* Assets.xcassets in Resources */,
+				41B9D6061EC86C6300091E14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9D60F1EC86C6300091E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9D61A1EC86C6300091E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B9D5F41EC86C6300091E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9D6031EC86C6300091E14 /* ViewController.m in Sources */,
+				41B9D6351EC86DCD00091E14 /* MoviePickerView.m in Sources */,
+				41B9D6001EC86C6300091E14 /* AppDelegate.m in Sources */,
+				41B9D6381EC8729700091E14 /* UIView+NIMDemo.m in Sources */,
+				41B9D5FD1EC86C6300091E14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9D60D1EC86C6300091E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9D6161EC86C6300091E14 /* CatEyeMovieScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9D6181EC86C6300091E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9D6211EC86C6300091E14 /* CatEyeMovieScrollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41B9D6131EC86C6300091E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41B9D5F71EC86C6300091E14 /* CatEyeMovieScroll */;
+			targetProxy = 41B9D6121EC86C6300091E14 /* PBXContainerItemProxy */;
+		};
+		41B9D61E1EC86C6300091E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41B9D5F71EC86C6300091E14 /* CatEyeMovieScroll */;
+			targetProxy = 41B9D61D1EC86C6300091E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41B9D6041EC86C6300091E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B9D6051EC86C6300091E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41B9D6091EC86C6300091E14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B9D60A1EC86C6300091E14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41B9D6231EC86C6300091E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41B9D6241EC86C6300091E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B9D6261EC86C6300091E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF92GY4C42;
+				INFOPLIST_FILE = CatEyeMovieScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinno.CatEyeMovieScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41B9D6271EC86C6300091E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF92GY4C42;
+				INFOPLIST_FILE = CatEyeMovieScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinno.CatEyeMovieScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41B9D6291EC86C6300091E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SF92GY4C42;
+				INFOPLIST_FILE = CatEyeMovieScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinno.CatEyeMovieScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatEyeMovieScroll.app/CatEyeMovieScroll";
+			};
+			name = Debug;
+		};
+		41B9D62A1EC86C6300091E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SF92GY4C42;
+				INFOPLIST_FILE = CatEyeMovieScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinno.CatEyeMovieScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatEyeMovieScroll.app/CatEyeMovieScroll";
+			};
+			name = Release;
+		};
+		41B9D62C1EC86C6300091E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SF92GY4C42;
+				INFOPLIST_FILE = CatEyeMovieScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinno.CatEyeMovieScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CatEyeMovieScroll;
+			};
+			name = Debug;
+		};
+		41B9D62D1EC86C6300091E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SF92GY4C42;
+				INFOPLIST_FILE = CatEyeMovieScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinno.CatEyeMovieScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CatEyeMovieScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B9D5F31EC86C6300091E14 /* Build configuration list for PBXProject "CatEyeMovieScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9D6231EC86C6300091E14 /* Debug */,
+				41B9D6241EC86C6300091E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B9D6251EC86C6300091E14 /* Build configuration list for PBXNativeTarget "CatEyeMovieScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9D6261EC86C6300091E14 /* Debug */,
+				41B9D6271EC86C6300091E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41B9D6281EC86C6300091E14 /* Build configuration list for PBXNativeTarget "CatEyeMovieScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9D6291EC86C6300091E14 /* Debug */,
+				41B9D62A1EC86C6300091E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41B9D62B1EC86C6300091E14 /* Build configuration list for PBXNativeTarget "CatEyeMovieScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9D62C1EC86C6300091E14 /* Debug */,
+				41B9D62D1EC86C6300091E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B9D5F01EC86C6300091E14 /* Project object */;
+}
